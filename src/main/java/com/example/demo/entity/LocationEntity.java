@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 @Entity
 public class LocationEntity {
     @Id
-    @GeneratedValue(stratergy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Double latitude;
